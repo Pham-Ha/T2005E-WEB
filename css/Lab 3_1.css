@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    background-image:url("../imgs/abc.jpg");
+    padding: 40px 100px 0;
+}
+.content-container{
+    background-color: #EEEEEE;
+}
+#content1{
+    background-color: #BBC4CD;
+    height: 200px;
+}
+#content1>div{
+    padding-left: calc(15% + 50px);
+    padding-top: 58px;
+}
+#content2{
+    padding-left: 30px;
+    float: left;
+    width: 15%;
+}
+#content3{
+
+    background-color: #E9E9E9;
+    height: 580px;
+    text-align: center;
+    margin-top: -180px;
+
+}
+#content3 img{
+    width: 80%;
+}
+#content4{
+    height: 400px;
+    width: calc(100% - 15% - 30px);
+    float: left;
+}

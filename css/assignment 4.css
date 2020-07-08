@@ -1,0 +1,105 @@
+
+.clearfix {
+    clear: both;
+}
+.tour-list {
+    display: block;
+    max-width: 960px;
+    margin: 50px auto;
+}
+.tour-box {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    background-color: #f5f5f5;
+}
+.tour-box .tour-img,
+.tour-box .tour-content,
+.tour-box .tour-price {
+    float: left;
+}
+.tour-box .tour-img {
+    width: 120px;
+}
+.tour-box .tour-img img {
+    display: block;
+}
+.tour-box .tour-content {
+    padding: 20px;
+}
+.tour-box .tour-price {
+    width: 150px;
+    float: right;
+    padding: 20px;
+}
+.tour-box .tour-content .address {
+    margin-top: 8px;
+}
+.tour-box .tour-content .address span {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.tour-box .tour-content .address span.tour-address {
+    border-right: 1px solid #f90;
+    padding-left: 0;
+}
+.tour-box .tour-content .address span.tour-category {
+    font-size: 14px;
+    color: #f90;
+}
+.tour-box .tour-content p {
+    margin: 8px 0 0;
+}
+.tour-box .tour-price {
+    text-align: center;
+    position: relative;
+}
+.tour-box .tour-price .price {
+    font-size: 12px;
+}
+.tour-box .tour-price .price span {
+    margin: 0 4px;
+}
+.tour-box .tour-price .regular-price {
+    text-decoration: line-through;
+}
+.tour-box .tour-price .sale-price {
+    font-size: 24px;
+    font-weight: bold;
+}
+.tour-box .tour-price button {
+    padding: 8px 15px;
+    margin-top: 10px;
+    background-color: #f90;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+.tour-box .tour-price .sale-label {
+    width: 0;
+    height: 0;
+    border-top: 60px solid red;
+    border-left: 60px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.tour-box .tour-price .sale-label:before {
+    content: "-50%";
+    position: absolute;
+    top: -50px;
+    right: 1px;
+    transform: rotate(45deg);
+    font-weight: bold;
+    color: #fff;
+}0%;
+    height: 100px;
+}
+.n3{
+    float: right;
+    border: 2px solid yellow;
+    width: 10%;
+    height: 100px;
+}

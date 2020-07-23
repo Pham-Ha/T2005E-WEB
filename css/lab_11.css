@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.tab{
+    border-bottom: 1px solid black;
+}
+.content{
+    display: none;
+}
+.tab-item{
+    background-color: #ffffff;
+    padding: 10px;
+    color: black;
+    border: 1px solid white;
+    margin-bottom: -1px;
+    border-bottom-color: black;
+    border-radius: 3px 3px 0 0;
+}
+.tab-item:focus{
+    outline: none;
+}

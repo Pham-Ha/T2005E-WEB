@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab_11</title>
+    <link rel="stylesheet" href="css/lab_11.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>vi tri xac dinh trong tabs</h1>
+   <div class="tab">
+       <button class="tab-item" type="button" onclick="Home(this)">Home</button>
+       <button class="tab-item" type="button" onclick="Profile(this)">Profile</button>
+       <button class="tab-item" type="button" onclick="Messages(this)">Messages</button>
+       <button class="tab-item" type="button" onclick="Settings(this)">Settings</button>
+   </div>
+    <div id="Home" class="content">
+        <h3>Home</h3>
+        <p>this is home center</p>
+    </div>
+    <div id="Profile" class="content">
+        <h3>Profile</h3>
+        <p>this is Profile center</p>
+    </div>
+    <div id="Messages" class="content">
+        <h3>Messages</h3>
+        <p>this is Messages center</p>
+    </div>
+    <div id="Settings" class="content">
+        <h3>Settings</h3>
+        <p>this is settings center</p>
+    </div>
+    <script type="text/javascript">
+        function Home(b) {
+            var e = document.getElementsByClassName("content");
+            for (var i of e){
+                i.style.display = "none";
+            }
+            var c = document.getElementsByClassName("tab-item")
+            for (var i of c){
+                i.style.borderColor = "white";
+                i.style.borderBottomColor = "black";
+            }
+            var a = document.getElementById("Home");
+            a.style.display = "block";
+            b.style.border = "1px solid black "
+            b.style.borderBottomColor = "white"
+        }
+        function Profile(b) {
+            var e = document.getElementsByClassName("content");
+            for (var i of e){
+                i.style.display = "none";
+            }
+            var c = document.getElementsByClassName("tab-item")
+            for (var i of c){
+                i.style.borderColor = "white";
+                i.style.borderBottomColor = "black";
+            }
+            var a = document.getElementById("Profile");
+            a.style.display = "block";
+            b.style.border = "1px solid black "
+            b.style.borderBottomColor = "white"
+        }
+        function Messages(b) {
+            var e = document.getElementsByClassName("content");
+            for (var i of e){
+                i.style.display = "none";
+            }
+            var c = document.getElementsByClassName("tab-item")
+            for (var i of c){
+                i.style.borderColor = "white";
+                i.style.borderBottomColor = "black";
+            }
+            var a = document.getElementById("Messages");
+            a.style.display = "block";
+            b.style.border = "1px solid black "
+            b.style.borderBottomColor = "white"
+        }
+        function Settings(b) {
+            var e = document.getElementsByClassName("content");
+            for (var i of e){
+                i.style.display = "none";
+            }
+            var c = document.getElementsByClassName("tab-item")
+            for (var i of c){
+                i.style.borderColor = "white";
+                i.style.borderBottomColor = "black";
+            }
+            var a = document.getElementById("Settings");
+            a.style.display = "block";
+            b.style.border = "1px solid black "
+            b.style.borderBottomColor = "white"
+        }
+    </script>
+</body>
+</html>

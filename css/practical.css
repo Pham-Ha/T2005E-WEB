@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    color: #343132;
+    background-color: #F2F2F2;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    padding: 15px 0;
+    background-image: url("/imgs/thi/menu.jpg");
+    border-bottom: 1px solid#EEEEEE;
+    margin-bottom: 60px;
+}
+.logo{
+    float: left;
+
+    width: 30%;
+}
+.right{
+    float: right;
+    width: 70%;
+}
+.logo a{
+    font-size: 35px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #343132;
+    font-weight: 700;
+}
+.menu{
+    float: right;
+    margin-top: 12px;
+}
+.menu li {
+    float: left;
+    margin-left: 35px;
+}
+.menu li:first-child{
+    list-style: none;
+}
+.menu li:nth-child(odd){
+
+}
+.menu li:nth-child(even){
+
+}
+.menu li a{
+    font-size: 18px;
+    color:#6E6844 ;
+    transition: all 150ms;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+    color: #343132;
+}
+.layout{
+    background-image: url("/imgs/thi/background.gif");
+    padding-left: 20px;
+}
+.left{
+    float: left;
+    width: 70%;
+    height: auto;
+}
+.left p{
+    padding-bottom: 10px;
+}
+.h2{
+    padding-bottom: 10px;
+}
+.col{
+    float:left;
+    width: 30%;
+    height: auto;
+}
